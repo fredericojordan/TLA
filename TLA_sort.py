@@ -9,4 +9,6 @@ lines = [line.rstrip('\n') for line in open(INPUT_FILE)]
 
 with open(OUTPUT_FILE, "w") as f:
 	for line in sort(lines):
-		f.write("{0}:{1:.0f}\n".format(line[0], line[1]))
+		f.write("{0}:{1:,.0f}\n".format(line[0], line[1]).replace(",", "."))
+
+print("Done!")
