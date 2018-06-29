@@ -37,3 +37,5 @@ Least hits:
 17574. `OXU`: 702.000
 17575. `OQI`: 631.000
 17576. `ZBO`: 445.000
+
+Data collected on June 2016.
